@@ -1,0 +1,143 @@
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About the Organization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join Us!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Cover Page-->
+<div class="homepage-cover bg-light">
+    <img src={{cover}} class="cover">
+    <div class="p-3 mb-2 bg-light text-dark" id="title" style="--bs-bg-opacity: .5; height: 400px;"><br>
+      <br>
+      <h1>Research Conference</h1>
+      <h3>Join our online events this {{year}}!</h3><br>
+      <br>
+      <button type="button" class="btn btn-secondary text-dark" id="eb-btn">Early Bird Registration</button><br>
+    </div>
+  </div><br>
+  
+<!--4 Cards-->
+  <br>
+  <h1 class="card-title">Join our Research Conferences around the Globe!</h1><br>
+  <br>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-right: auto; margin-left: 6%;">
+    
+    <!--France-->
+    <div class="col" id="card-size" style="width: 300px;">
+      <div class="card h-100">
+        <img src={{franceCover}} class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-start">{{france}}</h5>
+          <p class="card-text">The largest country in Western Europe, has long been a gateway between the continent's
+            nothern and souther regions.
+          </p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Architecture and Fine Arts</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Cultural Events</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Safety and Security</p>
+        </div>
+        <div class="card-footer">
+          <a href="#"><p [style.color]="learnMore" class="card-text">Learn More</p></a>
+        </div>
+      </div>
+    </div>
+
+    <!--Seoul-->
+    <div class="col" id="card-size" style="width: 300px;">
+      <div class="card h-100">
+        <img src={{seoulCover}} class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-start">{{seoul}}</h5>
+          <p class="card-text">Korean Sôul, formally
+            Sôul-t'ûkpyôlsi ("Special City of Seoul"), city and capital
+            of South Korea (the Republic of Korea).
+          </p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Humanities and Arts</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Cultural Events</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Safety and Security</p>
+        </div>
+        <div class="card-footer">
+          <a href="#"><p [style.color]="learnMore" class="card-text">Learn More</p></a>
+        </div>
+      </div>
+    </div>
+
+    <!--San Francisco-->
+    <div class="col" id="card-size" style="width: 300px;">
+      <div class="card h-100">
+        <img src={{sfCover}} class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-start">{{sf}}</h5>
+          <p class="card-text">It is a cultural and financial centre of the western United States and one of the 
+            country's most cosmopolitan cities.
+          </p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Science and Technology</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Cultural Events</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Safety and Security</p>
+        </div>
+        <div class="card-footer">
+          <a href="#"><p [style.color]="learnMore" class="card-text">Learn More</p></a>
+        </div>
+      </div>
+    </div>
+
+    <!--Boston-->
+    <div class="col" id="card-size" style="width: 300px;">
+      <div class="card h-100">
+        <img src={{bostonCover}} class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-start">{{boston}}</h5>
+          <p class="card-text">Best known for its famous baked beans, Fenway Park, The Boston Marathon
+            , and of course for the bar from Cheers.
+          </p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Engineering Tech</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Cultural Events</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"> Safety and Security</p>
+        </div>
+        <div class="card-footer">
+          <a href="#"><p [style.color]="learnMore" class="card-text">Learn More</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>

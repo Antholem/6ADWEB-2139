@@ -1,0 +1,32 @@
+.cover{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#title{
+    text-align: center;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    width: 95%;
+}
+
+#eb-btn{
+    color: black;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.card-title{
+    text-align: center;
+}
+
+#card-size{
+    width: 20%;
+}
+
+
+#bg{
+    --bs-bg-opacity: .5;
+}
