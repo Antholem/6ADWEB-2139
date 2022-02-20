@@ -1,0 +1,24 @@
+img{
+    max-height: 50%; 
+    max-width: 30%;
+    min-width: auto;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact{
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.card{
+    border: transparent;
+}
+
+#email{
+    width: 60%; 
+    margin-left: auto;
+     margin-right: auto;
+}

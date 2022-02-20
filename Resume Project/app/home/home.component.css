@@ -1,0 +1,10 @@
+#me{
+    max-width: 49%;
+    max-height: 49%;
+    min-width: auto;
+    min-height: auto;
+}
+
+#name{
+    display: inline;
+}
