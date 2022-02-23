@@ -1,0 +1,48 @@
+.img-fluid{
+    max-width: 100%;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#product-name{
+    font-size: 60px;
+    color: #101820FF;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#tagline{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+}
+
+.btn{
+    color: white;
+    background-color: #101820FF;
+    border-radius: 10px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(255, 255, 255);
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(23, 33, 43);
+    transition: 0.5s;
+}
+
+
+#bg{
+    background-color: #FFB81D;
+    height: 300px;
+    opacity: 0.5;
+}
+
+#bgw{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

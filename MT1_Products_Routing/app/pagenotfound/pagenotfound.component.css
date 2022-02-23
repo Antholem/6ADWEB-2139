@@ -1,0 +1,44 @@
+.mt-0 {
+    margin-top: -5% !important;
+  }
+
+.btn{
+  background-color: #FFB81D;
+  font-family: 'Shippori Antique B1', sans-serif;
+  color: #101820FF;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #e4a51d;
+  transition: 0.5s;
+}
+
+#error404{
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-size: 70px;
+  color: #101820FF;
+}
+
+#server{
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-size: 20px;
+  color: #101820FF;
+}
+
+#body{
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-size: 20px;
+  color: #101820FF;
+}
+
+span{
+  color: #FFB81D;
+}
+
+img{
+  max-width: 100%;
+  max-height: auto;
+  min-width: auto;
+  min-height: auto;
+}

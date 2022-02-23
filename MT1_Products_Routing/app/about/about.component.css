@@ -1,0 +1,34 @@
+.btn{
+    background-color: #FFB81D;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: #101820FF;
+    border-radius: 10px;
+  }
+  
+.btn:hover{
+    background-color: #e4a51d;
+    transition: 0.5s;
+}
+
+#about-content{
+    margin-top: 2%;
+    height: 90%;
+    width: 45%;
+    margin-left: 50%;
+    background-color: #101820;
+    opacity: 84%;
+}
+
+#header{
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 60px;
+    color: #FFB81D;
+}
+
+#info{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+span{
+    color: #FFB81D;
+}
