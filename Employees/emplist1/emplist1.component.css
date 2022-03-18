@@ -1,0 +1,17 @@
+table, h1{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+thead{
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
+
+table{
+    height: 400px;
+    vertical-align: middle;
+    width:90%; margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgb(168, 252, 151);
+}
+
